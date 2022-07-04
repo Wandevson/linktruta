@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url(/img/clouds.jpg);
+  background-image: url(clouds.jpg);
   background-size: cover;
   background-position: center;
   display: fixed;
