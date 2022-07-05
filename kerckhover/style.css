@@ -7,6 +7,7 @@
 body {
   background-image: url('/img/purple_clouds.jpg');
   background-size: cover;
+  background-position: center;
 }
 
 main {
