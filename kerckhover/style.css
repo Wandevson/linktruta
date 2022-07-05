@@ -5,10 +5,9 @@
 }
 
 body {
-  background-image: url(clouds.jpg);
+  background-image: url('/img/clouds.jpg');
   background-size: cover;
   background-position: center;
-  display: fixed;
 }
 
 main {
@@ -26,6 +25,7 @@ main {
 
 .textos {
   align-items: center;
+  position: relative;
 }
 
 .nome {
@@ -36,11 +36,20 @@ main {
   color: white;
 }
 
+/* .verificado img {
+  width: 13px;
+  position: absolute;
+  bottom: 57%;
+  left: 52.7%;
+} */
+
 .bio {
   font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Finlandica', sans-serif;
+  word-spacing: 1.5px;
   font-size: 15px;
   margin-top: 5px;
-  color: rgb(202, 200, 200);
+  color: rgb(216, 216, 216);
 }
 
 #container {
@@ -63,7 +72,7 @@ a {
   margin-bottom: 20px;
   color: rgb(48, 48, 48);
   font-size: 19px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Itim', cursive;
   align-items: center;
   justify-content: center;
   background: rgb(204, 204, 204);
@@ -87,7 +96,7 @@ a {
 
 .unit {
   display: inline;
-  margin-left: 5px;
+  margin-left: 10px;
   color: white;
 }
 
