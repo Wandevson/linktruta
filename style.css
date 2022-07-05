@@ -1,3 +1,4 @@
+/* Limpando formatação padrão */
 * {
   margin: 0;
   padding: 0;
@@ -35,21 +36,13 @@ main {
   position: relative;
   color: white;
 }
-/*
-.verificado img {
-  width: 13px;
-  position: absolute;
-  bottom: 57%;
-  left: 52.7%;
-} */
 
 .bio {
-  font-family: Arial, Helvetica, sans-serif;
   word-spacing: 1.5px;
   font-family: 'Finlandica', sans-serif;
   font-size: 15px;
   margin-top: 5px;
-  color: rgb(230, 230, 230);
+  color: rgb(220, 220, 220);
 }
 
 #container {
@@ -85,13 +78,6 @@ a {
   outline-offset: -2px;
   color: white;
   background: transparent;
-}
-
-.icone {
-  width: 42px;
-  display: absolute;
-  left: 0;
-  top: 0;
 }
 
 #redes {
